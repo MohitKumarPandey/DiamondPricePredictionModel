@@ -12,9 +12,9 @@ st.set_page_config(
 
 # ------------------ Load Model ------------------
 
-model = joblib.load("DiamondPricePredictionMl.pkl")
-cut_encoder = joblib.load("cut_encoder.pkl")
-color_encoder = joblib.load("color_encoder.pkl")
+model = joblib.load("DiamondPricePredictionMl(1).pkl")
+cut_encoder = joblib.load("cut_encoder(1).pkl")
+color_encoder = joblib.load("color_encoder(1).pkl")
 clarity_encoder = joblib.load("clarity_encoder.pkl")
 
 # ------------------ Title ------------------
